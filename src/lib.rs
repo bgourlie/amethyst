@@ -61,6 +61,7 @@
 #[cfg(feature = "profiler")]
 pub extern crate thread_profiler;
 
+pub extern crate amethyst_text as text;
 pub extern crate amethyst_animation as animation;
 pub extern crate amethyst_assets as assets;
 pub extern crate amethyst_audio as audio;

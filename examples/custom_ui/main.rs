@@ -11,7 +11,8 @@ use amethyst::{
     core::transform::TransformBundle,
     prelude::*,
     renderer::{DrawShaded, PosNormTex, TextureFormat},
-    ui::{FontFormat, ToNativeWidget, UiBundle, UiCreator, UiTransformBuilder, UiWidget},
+    text::FontFormat,
+    ui::{ToNativeWidget, UiBundle, UiCreator, UiTransformBuilder, UiWidget},
     utils::{application_root_dir, scene::BasicScenePrefab},
 };
 

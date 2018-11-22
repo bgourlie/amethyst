@@ -9,7 +9,8 @@ use amethyst::{
     renderer::{
         Camera, Material, MaterialDefaults, MeshHandle, PosTex, Projection, WindowMessages,
     },
-    ui::{Anchor, TtfFormat, UiText, UiTransform},
+    text::TtfFormat,
+    ui::{Anchor, UiText, UiTransform},
 };
 use config::{ArenaConfig, BallConfig, PaddlesConfig};
 use systems::ScoreText;

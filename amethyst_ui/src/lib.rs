@@ -9,11 +9,11 @@ extern crate amethyst_audio;
 extern crate amethyst_core;
 extern crate amethyst_input;
 extern crate amethyst_renderer;
+extern crate amethyst_text;
 extern crate clipboard;
 #[macro_use]
 extern crate derivative;
 extern crate fnv;
-extern crate font_kit;
 extern crate gfx;
 extern crate gfx_glyph;
 extern crate glsl_layout;
@@ -39,8 +39,6 @@ mod bundle;
 mod button;
 mod event;
 mod focused;
-mod font;
-mod format;
 mod image;
 mod layout;
 mod pass;
@@ -55,11 +53,6 @@ pub use self::{
     button::{UiButton, UiButtonBuilder, UiButtonBuilderResources, UiButtonSystem},
     event::{MouseReactive, UiEvent, UiEventType, UiMouseSystem},
     focused::UiFocused,
-    font::{
-        default::get_default_font,
-        systemfont::{default_system_font, get_all_font_handles, list_system_font_families},
-    },
-    format::{FontAsset, FontFormat, FontHandle, OtfFormat, TtfFormat},
     image::UiImage,
     layout::{Anchor, ScaleMode, Stretch, UiTransformSystem},
     pass::DrawUi,

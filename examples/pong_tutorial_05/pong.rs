@@ -7,7 +7,8 @@ use amethyst::{
         Camera, Flipped, PngFormat, Projection, SpriteRender, SpriteSheet, SpriteSheetFormat,
         SpriteSheetHandle, Texture, TextureMetadata,
     },
-    ui::{Anchor, TtfFormat, UiText, UiTransform},
+    text::TtfFormat,
+    ui::{Anchor, UiText, UiTransform},
 };
 
 pub const ARENA_HEIGHT: f32 = 100.0;

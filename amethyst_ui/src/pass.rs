@@ -31,6 +31,8 @@ use amethyst_renderer::{
     Texture, TextureData, TextureHandle, TextureMetadata, VertexFormat,
 };
 
+use amethyst_text::FontAsset;
+
 use super::*;
 
 const VERT_SRC: &[u8] = include_bytes!("shaders/vertex.glsl");

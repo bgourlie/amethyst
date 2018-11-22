@@ -11,7 +11,7 @@ use amethyst_core::specs::{
     prelude::{Entities, Entity, Read, ReadExpect, Write, WriteStorage},
 };
 use amethyst_renderer::{HiddenPropagate, Texture, TextureFormat, TextureMetadata, TexturePrefab};
-
+use amethyst_text::{FontFormat, FontAsset, get_default_font};
 use super::*;
 
 /// Loadable `UiTransform` data.

@@ -18,6 +18,7 @@ use amethyst_core::{
     timing::Time,
 };
 use amethyst_renderer::ScreenDimensions;
+use amethyst_text::FontHandle;
 
 use super::*;
 

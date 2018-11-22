@@ -9,6 +9,7 @@ use amethyst_core::{
     specs::prelude::DispatcherBuilder,
 };
 use amethyst_renderer::TextureFormat;
+use amethyst_text::{FontFormat, FontAsset};
 
 use super::*;
 

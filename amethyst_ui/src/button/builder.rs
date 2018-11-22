@@ -8,8 +8,9 @@ use amethyst_core::{
 };
 use amethyst_renderer::{Texture, TextureHandle};
 
+use amethyst_text::{FontAsset, FontHandle, get_default_font};
 use {
-    font::default::get_default_font, Anchor, FontAsset, FontHandle, MouseReactive, OnUiActionImage,
+    Anchor, MouseReactive, OnUiActionImage,
     OnUiActionSound, Stretch, UiButton, UiImage, UiText, UiTransform,
 };
 

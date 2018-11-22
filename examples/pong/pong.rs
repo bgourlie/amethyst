@@ -7,7 +7,8 @@ use amethyst::{
         Camera, Flipped, PngFormat, Projection, SpriteRender, SpriteSheet, SpriteSheetFormat,
         SpriteSheetHandle, Texture, TextureMetadata,
     },
-    ui::{Anchor, TtfFormat, UiText, UiTransform},
+    text::TtfFormat,
+    ui::{Anchor, UiText, UiTransform},
 };
 use systems::ScoreText;
 use {Ball, Paddle, Side};
